@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>App Lista Tarefas</title>
+		<title>FUNDAT</title>
 
 		<link rel="stylesheet" href="css/estilo.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -37,7 +37,7 @@
 								<hr />
 
 								<div class="row mb-3 d-flex align-items-center tarefa">
-								<form class="formulario" method="post" action="const_cadastro.php">
+								<form class="formulario" method="post" action="controladores/cad_controller.php">
 									<div class="cadastro-p1" align="">
 										<div class="">
 										<span>Tipo</span>

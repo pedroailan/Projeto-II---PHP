@@ -4,6 +4,14 @@
     //CRUD
     class cadastroService{
 
+        private $conexao;
+        private $cadastro;
+
+        public function __construct(Conexao $conexao, cadastro $cadastro) {
+            $this->conexao = $conexao;
+            $this->cadastro = $cadastro;
+        }
+
         public function inserir(){
 
         }
